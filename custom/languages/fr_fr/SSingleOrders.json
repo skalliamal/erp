@@ -1,0 +1,10 @@
+{
+    "php": {
+        "SSingleOrders": "Bons de commande",
+        "SINGLE_SSingleOrders": "Bon de commande",
+        "Date Ordre": "Date ordre",
+        "Type Ordre": "Type ordre",
+        "Edition": "Édition",
+        "LBL_SSINGLEORDERS_INFORMATION": "D\u00e9tails"
+    }
+}

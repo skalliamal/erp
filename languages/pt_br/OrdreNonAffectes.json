@@ -1,0 +1,9 @@
+{
+  "php": {
+	"OrdreNonAffectes": "OrdreNonAffectes",
+	"SINGLE_OrdreNonAffectes": "Ordre non affectés",
+	"LBL_CUSTOM_INFORMATION": "Custom Information",
+	"LBL_BASIC_INFORMATION": "Basic Information",
+	"subject": "subject"
+  }
+}

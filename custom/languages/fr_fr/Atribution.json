@@ -1,0 +1,30 @@
+{
+    "php": {
+        "Aff\u00e9ctation": "Affectation",
+        "elements_fabrication_module_logo": "El\u00e9ments de fabrication: Module logo",
+        "elements_fabrication_video": "El\u00e9ments de fabrication: Vid\u00e9o",
+        "elements_fabrication_catalogue": "El\u00e9ments de fabrication: Catalogue",
+        "Libell\u00e9": "Libell\u00e9 produit ",
+        "Unit\u00e9 affichage": "Unit\u00e9 d'affichage",
+        "Nombre affichage": "Nombre d'affichage",
+        "Dur\u00e9e affichage": "Dur\u00e9e d'affichage",
+        "professionnel_description": "Description",
+        "elements_fabrication_professionnel_du_jour": "El\u00e9ments de fabrication: Professionnel du jour",
+        "elements_fabrication_espace_promo": "El\u00e9ments de fabrication: Espace Promo",
+        "espace_promo_description": "Description",
+        "elements_fabrication_profession_lib": "El\u00e9ments de fabrication: Profession lib\u00e9rale",
+        "prof_lib_video": "Vid\u00e9o",
+        "elements_fabrication_video_graphique": "El\u00e9ments de fabrication: Vid\u00e9o graphique",
+        "video_graphique1": "Vid\u00e9o 1",
+        "video_graphique2": "Vid\u00e9o 2",
+        "elements_fabrication_vignette_thematique": "El\u00e9ments de fabrication: Vignette th\u00e9matique",
+        "vignette_choisir_rubrique": "Choisir rubrique",
+        "vignette_thematique_rubriques": "Rubriques",
+        "elements_fabrication_vignette_localite": "El\u00e9ments de fabrication: Vignette localit\u00e9",
+        "vignette_localite_villes": "Villes",
+        "elements_fabrication_vignette_regions": "El\u00e9ments de fabrication: Vignette r\u00e9gions",
+        "vignette_regions_regions": "R\u00e9gions",
+        "Atribution": "Suivi Production",
+        "SINGLE_Atribution": "Suivi Production"
+    }
+}

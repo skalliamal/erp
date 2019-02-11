@@ -1,0 +1,9 @@
+{
+  "php": {
+	"SuiviBat": "SuiviBat",
+	"SINGLE_SuiviBat": "Suivi des BAT",
+	"LBL_CUSTOM_INFORMATION": "Custom Information",
+	"LBL_BASIC_INFORMATION": "Basic Information",
+	"subject": "subject"
+  }
+}

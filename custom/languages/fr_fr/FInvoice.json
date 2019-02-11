@@ -1,0 +1,9 @@
+{
+    "php": {
+        "FInvoice": "Factures",
+        "SINGLE_FInvoice": "Facture",
+        "FL_ACCOUNT": "Firme",
+        "Marque": "Support",
+        "FL_NUMBER": "N\u00b0 facture"
+    }
+}

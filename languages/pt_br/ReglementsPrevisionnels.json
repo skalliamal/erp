@@ -1,0 +1,9 @@
+{
+  "php": {
+	"ReglementsPrevisionnels": "ReglementsPrevisionnels",
+	"SINGLE_ReglementsPrevisionnels": "Règlements prévisionnels",
+	"LBL_CUSTOM_INFORMATION": "Custom Information",
+	"LBL_BASIC_INFORMATION": "Basic Information",
+	"sujet": "Sujet"
+  }
+}

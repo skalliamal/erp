@@ -1,0 +1,102 @@
+[
+	{
+		"cmd": "mysql -u root -p erptest < erp.sql",
+	},
+	{
+		"cmd": "mysqldump -u root -p erp > erp.sql",
+	},
+	{
+		"pdf_header": '<br><img src="http://100.1.1.8/ERP/erptest/public_html/layouts/resources/Logo/logo_edicom.png" /><img src="http://100.1.1.8/ERP/erptest/public_html/layouts/resources/Logo/logo_telecontact.png" style="margin-left:377px;" />',
+	},
+	{
+		"page": "app/RecordSearch.php ~ 22",
+		"action": "$checkPermissions a été changé vers false afin de ne pas vérifier userid dans la table u_yf_crmentity_search_label",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\SSingleOrders\EditViewBlocks.tpl ~ 140",
+		"action": "Ajout des règles de gestion du contrôle d'un bc",
+		"parent": "C:\xampp\htdocs\ERP\layouts\basic\modules\Vtiger\EditViewBlocks.tpl",
+		"related_php": "C:\xampp\htdocs\ERP\modules\Vtiger\views\Edit.php",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\Avoirs\EditViewBlocks.tpl ~ 137",
+		"action": "Ajout des règles de gestion des avoirs",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\Atribution\EditViewBlocks.tpl",
+		"action": "Ajout des règles de gestion des Attributions",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\Atribution\ListViewContents.tpl ~ 98",
+		"action": "Affichage des Attributions pour les opérateurs concernés",
+		"related_php": "C:\xampp\htdocs\ERP\modules\Atribution\views\List.php ~ 294",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\Atribution\EditViewActions.tpl",
+		"action": "Changement du bouton de sauvgarde(création ou édition)",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\modules\Vtiger\actions\Edicom.php",
+		"action": "Ajout de la page pour gérer les requêtes http",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\public_html\layouts\basic\modules\Vtiger\resources\Edit.js ~ 166 & 978",
+		"action": "Behavior change after ajax searching related modules et registerLeavePageWithoutSubmit changement",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\Vtiger\EditViewInventory.tpl ~ 46",
+		"action": "Changement libellé du bouton",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\config\developer.php ~ 46",
+		"action": "Changement des droits",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\config\debug.php ~ 50 54",
+		"action": "Changement des droits",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\modules\MODULE.php",
+		"action": "Changement de $mandatory_fields et $search_fields_name",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\Settings\LayoutEditor\Index.tpl ~ 30",
+		"action": "Ajout d'un boutton qui redirige vers ImportCustomField.tpl",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\Settings\LayoutEditor\ImportCustomField.tpl",
+		"action": "Ajout de cette page",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\modules\Settings\LayoutEditor\views\importCustomField.php",
+		"action": "Ajout de cette page",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\modules\Settings\LayoutEditor\actions\Field.php",
+		"action": "Ajout des fcts Export_add_fields, Export_update_fields, import_fields",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\Accounts\ListViewPreProcess.tpl",
+		"action": "Ajout de cette page",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\modules\Accounts\views\List.php",
+		"action": "Ajout de cette page",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\layouts\basic\modules\OrdreNonAffectes\ListVieworders.tpl C:\xampp\htdocs\ERP\layouts\basic\modules\OrdreNonAffectes\ListViewPreProcess.tpl C:\xampp\htdocs\ERP\modules\OrdreNonAffectes\views\List.php",
+		"action": "Ajout des pages des ordres non affectés",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\public_html\layouts\basic\modules\Vtiger\resources\Inventory.js ~1191 & 1454 & 1410",
+		"action": "registerSubProducts event removed, Behavior change after ajax searching products",
+	},
+	{
+		"page": "C:\xampp\htdocs\ERP\modules\Vtiger\views\Detail.php ~601",
+		"action": "removed quick edit in detail view",
+	},
+	{
+		"page": "",
+		"action": "",
+	},
+]

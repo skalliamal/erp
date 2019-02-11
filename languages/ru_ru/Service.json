@@ -1,0 +1,9 @@
+{
+  "php": {
+	"Service": "Service",
+	"SINGLE_Service": "Service",
+	"LBL_CUSTOM_INFORMATION": "Custom Information",
+	"LBL_BASIC_INFORMATION": "Basic Information",
+	"service": "Service"
+  }
+}

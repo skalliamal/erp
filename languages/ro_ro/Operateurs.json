@@ -1,0 +1,9 @@
+{
+  "php": {
+	"Operateurs": "Operateurs",
+	"SINGLE_Operateurs": "Opérateurs",
+	"LBL_CUSTOM_INFORMATION": "Custom Information",
+	"LBL_BASIC_INFORMATION": "Basic Information",
+	"prenom": "Prénom"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "php": {
+        "Accounts": "Firmes",
+        "Account Name": "Compte",
+        "SINGLE_Accounts": "Firme",
+        "Ticker Symbol": "Symbole boursier",
+        "Fax Autre": "Fax"
+    }
+}

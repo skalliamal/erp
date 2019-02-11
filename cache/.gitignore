@@ -1,0 +1,13 @@
+*
+!.gitignore
+!addressBook
+!images
+!import
+!logs
+!mail
+!pdf
+!rss_cache
+!session
+!templates_c
+!upload
+!vtlib

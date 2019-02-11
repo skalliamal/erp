@@ -1,0 +1,73 @@
+<!-- header -->
+<br>
+<img src="http://100.1.1.8/ERP/erptest/public_html/layouts/resources/Logo/logo_edicom.png" />
+<img src="http://100.1.1.8/ERP/erptest/public_html/layouts/resources/Logo/logo_telecontact.png" style="margin-left:377px;" />
+
+<!-- body -->
+
+<br><br><br><br><br><br>
+
+<div>
+	<div style="width: 40%;text-align:center;">
+		Facture<br>
+		<div style ="border: double 5px  #000000;border-radius:5px;text-align:center;width: 70px;margin:auto;">
+			<div style="display: inline-block;"> $(record : number)$​​​​​​​ </div>
+		</div>
+	</div>
+	<div style="border:2px solid #000000;padding:5px 5px;width: 40%;margin-left: 445px;margin-top: -45px;border-radius:5px;">
+		$(relatedRecord : accountid|raison_sociale|Accounts)$<br>
+		$(relatedRecord : accountid|adresse|Accounts)$<br>
+		$(relatedRecord : accountid|ville|Accounts)$
+	</div>
+</div>
+
+<div style="margin-top: 50px;">
+	<div style="width:19%;border:1px solid #000000;border-radius:5px;text-align:center;padding-bottom: 5px;">
+		<div style="margin-bottom: 5px;border-bottom: 1px solid black;">Date facture</div>
+		$(record : saledate)$
+	</div>
+	<div style="width:19%;margin-left: 20%;border:1px solid #000000;border-radius:5px;text-align:center;margin-top: -52px;padding-bottom: 5px;">
+		<div style="margin-bottom: 5px;border-bottom: 1px solid black;">Code client</div>
+		$(relatedRecord : accountid|code_firme|Accounts)$
+	</div>
+	<div style="width:20%;margin-left: 40%;border:1px solid #000000;border-radius:5px;text-align:center;margin-top: -52px;padding-bottom: 5px;">
+		<div style="margin-bottom: 5px;border-bottom: 1px solid black;">Ordre d'insertion</div>
+		$(record : num_ordre)$ / $(relatedRecord : commercial|codecommercial|Commerciaux)$
+	</div>
+	<div style="width:19%;margin-left: 61%;border:1px solid #000000;border-radius:5px;text-align:center;margin-top: -52px;padding-bottom: 5px;">
+		<div style="margin-bottom: 5px;border-bottom: 1px solid black;">Annuaire</div>
+		$(record : marque)$ $(record : type_ordre)$
+	</div>
+	<div style="width:19%;margin-left: 81%;border:1px solid #000000;border-radius:5px;text-align:center;margin-top: -52px;padding-bottom: 5px;">
+		<div style="margin-bottom: 5px;border-bottom: 1px solid black;">Édition</div>
+		$(record : edition)$
+	</div>
+</div>
+
+<div style="margin-top: 50px;">
+	$(custom : ProductsTableNew)$
+</div>
+
+<div style="margin-top: 50px;">
+	Arrêtée la présente facture à la somme de: <strong>$(custom : GrossAmountInWords)$</strong>
+</div>
+
+<!-- footer -->
+
+<div style="margin-top: 50px;margin-left: 15px;">
+	Règlement par virement: BCP Almoukaouama - Rib: <strong>190 780 21211 3030639 000 1 41</strong><br>
+	Règlement par chèque à l'ordre de: <strong>$(organization : name)$</strong>
+</div>
+<div  style="margin-top: 7px;">
+	<div style="background:#FFCD2F;padding-top: 4px;width: 25%;margin-top: -4px;"></div>
+	<div style="background: #18BCC8;padding-top: 4px;width: 25%;margin-left: 25%;margin-top: -4px;"></div>
+	<div style="background: #BD2640;padding-top: 4px;width: 25%;margin-left: 50%;margin-top: -4px;"></div>
+	<div style="background: #005CA7;padding-top: 4px;width: 25%;margin-left: 75%;margin-top: -4px;"></div>
+</div>
+<br>
+<div style="text-align: center;font-size: 12px;">
+	$(organization : name)$ - $(organization : street)$ - $(organization : code)$ $(organization : city)$ <br>
+	Tél: $(organization : phone)$ - Fax: $(organization : fax)$ - $(organization : state)$<br>
+	Capital 300000 Dhs - R.C. 55979 Casablanca - T.P. 34782029 - C.N.S.S. 2092831 - I.F. 1020640 - I.C.E. 001560994000050
+</div>
+<br>
